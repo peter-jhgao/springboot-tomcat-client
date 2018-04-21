@@ -11,6 +11,6 @@ public class HelloWorldControllerTest {
 
     @Test
     public void testSayHello() {
-        assertEquals("Hello, CCE!",new HelloWorldController().sayHello());
+        assertEquals("Hello CCE from CSE!",new HelloWorldController().sayHello());
     }
 }
